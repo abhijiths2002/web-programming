@@ -1,0 +1,60 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        body {
+            background-image: url('hacker-5k-wallpaper-5081x2858-22393.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            color: white;
+            font-family:  "Times New Roman", Times, serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        h1 {
+           
+           margin-bottom: 100px;
+       
+        }
+        form {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.7); 
+            padding: 30px;
+            border-radius: 8px;
+        }
+        input[type="text"], 
+        input[type="password"] {
+            display: block;
+            margin: 10px auto;
+            padding: 10px;
+            width: 80%; 
+            max-width: 200px; 
+        }
+        input[type="submit"], 
+        input[type="reset"] {
+            width: auto;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>LOGIN FORM</h1>
+        <form action="#" method="post">
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="USERNAME" required><br>
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="PASSWORD" required><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+</body>
+</html>
