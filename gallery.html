@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjusted min width for larger images */
+            gap: 20px; /* Increased gap between images */
+            margin: 0 auto;
+            max-width: 1200px; /* Maximum width for the gallery */
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>COLLEGE GALLERY</h1>
+    <div class="gallery">
+        <img src="mcet8.jpg" alt="img1">
+        <img src="mcet2.jpg" alt="img2">
+        <img src="mcet3.jpg" alt="img3">
+        <img src="mcet4.jpg" alt="img4">
+        <img src="mcet5.jpg" alt="img5">
+        <img src="mcet7.jpg" alt="img5">
+    </div>
+</body>
+</html>
